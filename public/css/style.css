@@ -1,0 +1,262 @@
+.both-margin{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.both-padding{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.both-margin-15{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.bold{
+    font-weight: bold;
+}
+
+.btn-align{
+    width: 150%;
+    font-size: 100%;
+
+}
+
+.margin-bottom{
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.margin-top-5{
+    margin-top: 5%;
+}
+.margin-top-2{
+    margin-top: 2%;
+}
+
+.padding-0{
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+.padding-photo{
+    padding-top: 5%;
+}
+.padding-2{
+    padding-bottom: 10%;
+}
+.padding-text{
+    padding-top: 20%;
+}
+
+.red-button{
+    padding: 10px;
+    width: 200px;
+    margin-top: 10px;
+}
+.hight-header{
+    background-color: whitesmoke;
+}
+.border-light{
+    border-left: 3px #D9534F solid;
+}
+
+.header{
+    height: 150px;
+}
+.header-text{
+    padding-top: 25px;
+
+}
+.all-job{
+    margin-top: 5%;
+}
+.img-job{
+
+}
+.margin-button{
+    margin-bottom: 10%;
+}
+
+.first{
+    background-image: url("/img/bg-3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.text{
+    font-size: 200%;
+}
+
+.order{
+    float: left;
+    border: 1px solid rgb(86,108,168);
+
+    margin-top: 3%;
+    background-color: whitesmoke;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+}
+
+.red-text{
+    border: 4px #D9534F solid;
+    padding: 1%;
+    color: #D9534F;
+    font-size: 150%;
+    font-weight: bold;
+    border-radius: 15px;
+    animation: move 1s infinite;
+}
+.red{
+    color: red;
+}
+@keyframes move {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+@keyframes go {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+.second-first{
+    margin-top: 25px;
+}
+.text-our-services{
+    height: auto;
+    width: auto;
+    background: -moz-linear-gradient(left, rgba(255,255,255,0.3) 0%, rgba(171,181,215,1) 50%, rgba(255,255,255,0.3) 100%);
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0.3) 0%,rgba(171,181,215,1) 50%,rgba(255,255,255,0.3) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0.3) 0%,rgba(171,181,215,1) 50%,rgba(255,255,255,0.3) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dffffff', endColorstr='#4dffffff',GradientType=1 );
+}
+
+.text-our-service{
+    height: auto;
+    width: auto;
+    color: whitesmoke;
+    background-color: rgba(86,108,168,0.7);
+    background: linear-gradient(to right, rgba(86,108,168,0.1) 0%,rgba(86,108,168,0.25) 20%,rgba(86,108,168,0.99)
+    50%,rgba(86,108,168,1) 52%,rgba(86,108,168,0.25) 80%,rgba(86,108,168,0.1) 100%);
+}
+
+
+.marg{
+    margin-bottom: 50px;
+}
+.margin-right{
+    margin-right: 5%;
+}
+
+.call{
+    background-image: url("/img/bg-4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+.call-text{
+    font-family: Arial;
+font-weight: bold;
+}
+
+
+#first{
+    position: fixed;
+    left: 0%;
+    top: 50%;
+    opacity: 0.5;
+    cursor: pointer;
+    width: 10%;
+    height: 50%;
+    padding-top: 20%;
+    display: none;
+}
+#up{
+    width: 100%;
+    top: 90%;
+    align-content: flex-end;
+}
+
+.fon{
+    padding: 2%;
+    margin: 2%;
+    border: groove rgb(86,108,168) 2px;
+    border-radius: 15px;
+}
+.img-border{
+    border-radius: 15px;
+}
+
+.text-admin{
+    float: right;
+    margin: 1%;
+}
+
+#skype-img{
+    float: left;
+
+}
+#text-skype{
+    float: left;
+    padding-top: 15px;
+
+}
+
+#more {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 30%;
+    outline:none;
+    border: solid whitesmoke 2px;
+    border-radius: 15px;
+    color: whitesmoke;
+    background-color: rgba(86,108,168,0.7);
+}
+
+#text-sum{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.border-bottom{
+    border-bottom: solid rgb(86,108,168) 1px;
+}
+
+.margin-bottom-2{
+    margin-right: 2%;
+    color: rgb(86,108,168);
+}
+.margin-bottom-5{
+    margin-right: 5%;
+}
+
+#blue{
+    width: 100%;
+    height: 100px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border: 2px solid rgb(86,108,168);
+    background-color: rgb(86,108,168);
+}
